@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*tabla*/
+
+.tabla {
+    height: auto;
+    width: 100%;
+}
+
+table {
+    background-color: white;
+    text-align: justify;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+a.boton {
+    margin: 30px 600px;
+    position: fixed;
+}
+
+th,
+td {
+    padding: 5px;
+    font-size: 10px;
+}
+
+thead {
+    background-color: rgb(13, 139, 241);
+    color: white;
+    border-bottom: rgb(6, 44, 94) 5px solid;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td {
+    background-color: #1883b4;
+    color: white;
+}
+
+.boton {
+    margin: 10 auto;
+    background-color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    color: rgb(30, 164, 241);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -0px 0 rgb(30, 164, 241) inset, 0px 0 rgb(30, 164, 241) inset;
+    text-decoration: none;
+}
+
+.boton:hover {
+    box-shadow: -250px 0 white inset, 250px 0 white inset;
+    color: rgb(30, 164, 241);
+    transition: all 1s;
+}

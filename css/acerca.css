@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.principal {
+    overflow: hidden;
+    background-color: #384155;
+}
+
+
+/*parte superior de la pagina*/
+
+.barraS {
+    background-image: url("https://miro.medium.com/max/1920/1*Ak3H--m8p63iVcsnbuxZQg.jpeg");
+    color: white;
+    width: 100%;
+    height: 150px;
+    border-bottom: black solid 2px;
+}
+
+.h1 {
+    float: left;
+}
+
+
+/*estilo del menu*/
+
+.menu {
+    float: right;
+    margin-right: 30px;
+    position: sticky;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.menu ul li a {
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.icono {
+    height: 25px;
+    width: 25px;
+}
+
+.eslogan {
+    float: left;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.582);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 40px;
+    line-height: 80px;
+    padding-left: 200px;
+    padding-top: 10px;
+    animation-name: eslogan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+/*animacion del menu*/
+
+@keyframes eslogan {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0.6;
+    }
+    68%,
+    72% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.menu ul li a:hover {
+    color: white;
+    transition: 1.2s;
+}
+
+
+/*tamañode las imagenes*/
+
+
+/*div de los integrantes*/
+
+.integrantes {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+    height: auto;
+    margin: 40px 30px;
+    margin-left: 60px;
+    padding: 5px;
+}
+
+.informacion {
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(55, 148, 223, 0.089);
+    font-style: italic;
+    text-align: justify;
+    padding: 15px;
+    margin-left: 65px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.participantes {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: auto;
+    height: 773px;
+    width: 400px;
+    background-color: rgba(55, 148, 223, 0.089);
+    text-align: center;
+}
+
+.participantes h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.participantes p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.participantes img {
+    height: 300px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 200px;
+    height: 300px;
+    background-color: #515d67;
+}
+
+.iconos {
+    height: 70px;
+    width: 100%;
+    margin-top: 100px;
+    border-top: 3px solid black;
+}
+
+.iconos img {
+    margin: 100px;
+    margin-left: 150px;
+}
+
+.usu {
+    position: absolute;
+    height: 22px;
+    width: auto;
+    top: 10px;
+    right: 0;
+    color: black;
+    margin-right: 20px;
+}
+
+.usu a {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #38415591;
+    padding: 5px;
+    color: black;
+}
+
+.usu a:hover {
+    box-shadow: -1px 10px #384155f6;
+}
+
+.pe {
+    margin: 0 10px;
+    display: contents;
+}
+
+.lo {
+    height: 20px;
+    width: 20px;
+}

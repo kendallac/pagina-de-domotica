@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    overflow: hidden;
+    background-color: #384155;
+    height: auto;
+}
+
+
+/*parte superior de la pagina*/
+
+.barraS {
+    background-image: url("https://miro.medium.com/max/1920/1*Ak3H--m8p63iVcsnbuxZQg.jpeg");
+    color: white;
+    width: 100%;
+    height: 150px;
+    border-bottom: black solid 2px;
+    overflow: hidden;
+}
+
+.no {
+    font-size: 50px;
+    height: 300px;
+    width: 100%;
+    padding: 200px 300px;
+    animation-name: eslogan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.h1 {
+    float: left;
+}
+
+.defi {
+    height: 130px;
+    width: 270px;
+    margin: 20px;
+}
+
+
+/*estilo del menu*/
+
+.menu {
+    float: right;
+    margin-right: 80px;
+    position: sticky;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.menu ul li a {
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.icono {
+    height: 25px;
+    width: 25px;
+}
+
+
+/*animacion del menu*/
+
+@keyframes eslogan {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0.6;
+    }
+    68%,
+    72% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.menu ul li a:hover {
+    color: white;
+    transition: 1.2s;
+}
+
+
+/*agrupar imagenes en de a 3*/
+
+
+/*tamaño de las imagenes*/
+
+.tabla img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/*tabla*/
+
+.tabla {
+    margin: 50px 300px;
+    height: auto;
+    width: 100%;
+}
+
+td a i {
+    font-size: 50px;
+    color: red;
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+thead {
+    background-color: rgb(13, 139, 241);
+    color: white;
+    border-bottom: rgb(6, 44, 94) 5px solid;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td {
+    background-color: #1883b4;
+    color: white;
+}
+
+footer {
+    margin-top: 200px;
+    height: 300px;
+    background-color: #515d67;
+}
+
+
+/*footer*/
+
+.iconos {
+    height: 70px;
+    width: 100%;
+    margin-top: 100px;
+    border-top: 3px solid black;
+}
+
+.iconos img {
+    margin: 100px;
+    margin-left: 150px;
+}
+
+.usu {
+    position: absolute;
+    height: 22px;
+    width: auto;
+    top: 10px;
+    right: 0;
+    color: black;
+    margin-right: -35px;
+}
+
+.usu a {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #38415591;
+    padding: 5px;
+    color: black;
+}
+
+.usu a:hover {
+    box-shadow: -1px 10px #384155f6;
+}
+
+.pe {
+    margin: 0 10px;
+    display: contents;
+}
+
+.lo {
+    height: 20px;
+    width: 20px;
+}
+
+.total {
+    background-color: #1883b4;
+    color: white;
+    display: inline;
+    padding: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 35px;
+}
